@@ -1,0 +1,58 @@
+installation 
+ npm init -y
+------------------------
+nodde is allow to make a rest api
+rest api is used to communicate and the run in every program
+
+Express js is used to amke a backend application for website
+-----------------------------------
+
+old version we have 
+const epress = require("express")
+----------------------------------
+
+but in new version(ES6) we have 
+import express from "express"
+------------------------------------
+Nodemon is used to continue the server we cant start again and again
+------------------------------------
+
+express give a cors method 
+get post put delete
+
+---------------------------------
+get
+app.get('/user',(req, res)=>{  ## req =  request of frontend side in with alll the data found and all the things
+res.send(users)                ## res = response is basically a reply which backend did 
+})
+
+------------------------------------------------------------
+Router
+
+router is basically help use to write efficient code and router have give a smooth pth to find api 
+for example user api 
+('/api', Routers)----> ('/user',Users)------------->("/",()=>{})
+--------------------------------------------------------------------
+
+middlewear is basically a gate with give us direction and sureicty
+
+app.use()
+
+-------------------------------------------------------
+multer
+multer is a pack age of express js in which we will upload the user selected  file on my folder
+
+
+---------------------------------------------------------------------------------
+.gitignore is a file in which i decide that which file is not puch on github
+----------------------------------------------------------------------------
+
+
+cyclic
+cyclic is deployment method of backend is which we deploy our api 
+
+
+
+
+
+
